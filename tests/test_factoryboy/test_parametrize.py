@@ -10,7 +10,7 @@ from core.app1.models import Product
         # ("NewTitle", 1, "", "slug", "4.99", "3.99", True),
         # ("NewTitle", 1, "NewDescription", "", "4.99", "3.99", True),
         # ("NewTitle", 1, "NewDescription", "slug", "4.99", "3.99", True),
-        ("NewTitle", 1, "NewDescription", "slug", "", "3.99", False),
+        ("NewTitle", 1, "NewDescription", "slug", "3", "3.99", True),
     ],
 )
 def test_product_instance(
