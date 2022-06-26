@@ -18,13 +18,24 @@ import pytest
 #     print('test2')
 #     assert 1 == 1
 
+# function Run once per test
+# class Run once per class of tests
+# module Run once per module
+# session Run once per session
 
-@pytest.fixture
-def fixture_1():
-    print('run fixture_1')
-    return 1
-
-
-def test_fixture_1(fixture_1):
-    num = fixture_1
-    assert num == 1
+# @pytest.fixture(scope='session')
+# def fixture_1():
+#     print('run fixture_1')
+#     return 1
+#
+#
+# def test_fixture_1(fixture_1):
+#     print('test_fixture_1')
+#     num = fixture_1
+#     assert num == 1
+#
+#
+# def test_fixture_2(fixture_1):
+#     print('test_fixture_2')
+#     num = fixture_1
+#     assert num == 1
